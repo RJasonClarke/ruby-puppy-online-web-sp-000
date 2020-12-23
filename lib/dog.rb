@@ -19,8 +19,7 @@ def Dog.clear_all
 end
 
 def print_all
-  @@all.each do |dog|
-    puts dog.all
+  @@all.print
   end
 end
 end
