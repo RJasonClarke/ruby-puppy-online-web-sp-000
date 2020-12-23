@@ -18,8 +18,10 @@ def Dog.clear_all
   @@all.clear
 end
 
-def print_all
-  @@all.print_all
-end
+def self.print_all
+    @@all.each do |dog|
+      puts dog.name
+    end
+  end
 
 end
