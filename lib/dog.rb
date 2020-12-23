@@ -20,6 +20,6 @@ end
 
 def print_all
   @@all.print
-  end
 end
+
 end
