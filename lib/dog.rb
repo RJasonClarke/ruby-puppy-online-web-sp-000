@@ -8,21 +8,13 @@ class Dog
 		@@all << self
 	end
 
-  def self.all
-    puts @@all
-
 	def self.clear_all
 		@@all.clear
 
 	end
 
-	def self.print_all
+	def self.all
 		@@all.each do |dog|
 			puts dog.name
 		end
 	end
-end
-
-pluto = Dog.new("Pluto")
-fido = Dog.new("Fido")
-maddy = Dog.new("Maddy")
