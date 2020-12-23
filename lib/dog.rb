@@ -23,3 +23,4 @@ def print_all
     puts dog.all
   end
 end
+end
