@@ -19,7 +19,7 @@ def Dog.clear_all
 end
 
 def print_all
-  @@all.print
+  @@all.print_all
 end
 
 end
